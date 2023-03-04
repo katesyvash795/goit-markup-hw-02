@@ -7,6 +7,10 @@
 --body-color:#434455;
 --title-portfolio-color:#2e2f42;
 --text-portfolio-color:#434455;
+--adress-color: #434455;
+--title-color: #2e2f42;
+
+
 }
 .body{
     font-family:'Roboto', sans-serif  ;
@@ -29,7 +33,7 @@ background-color:#ffffff;
 
 .header-logo {
 font-family: 'Raleway', sans-serif;
-font-weight: 800 
+font-weight: 800 ;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -50,7 +54,7 @@ color: var(--menu-color);
     color: var(--hover-color);
 }
 .header-link {
-
+    color: var(--menu-color);
 }
 
 .header-address {
@@ -61,16 +65,16 @@ color: var(--menu-color);
 .header-address-item {
   font-size: 16px;
 line-height: 1.5;
-color: #434455;  
+color: var(--adress-color);  
 }
 .header-tel {
-
+    color: var(--adress-color)
 }
 .header-address-item :hover, .header-address-item :focus {
 color: var(--hover-color);
 }
 .header-mail {
-
+    color: var(--adress-color)
 }
 /**______SOLUTION______**/
 .solution {
@@ -131,6 +135,7 @@ text-align: center;
 text-transform: capitalize; 
 font-size: 36px;
 line-height: 1.11;
+color: var(--title-color);
 }
 .activities-list {
 }
@@ -148,6 +153,7 @@ line-height: 1.11;
 text-align: center ;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+color: var(--title-color);
 }
 .team-list {
 }
@@ -158,6 +164,7 @@ text-transform: capitalize;
 line-height: 1.2;
 font-weight: 500;
 letter-spacing: 0.02em ;
+color: var(--title-color);
 }
 .team-item-text {
     font-size: 16px;
