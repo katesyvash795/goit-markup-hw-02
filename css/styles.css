@@ -67,13 +67,10 @@ font-size: 16px;
 line-height: 1.5;
 color: var(--adress-color);  
 }
-.header-tel {
-color: var(--adress-color)
-}
 .header-address-item :hover, .header-address-item :focus {
 color: var(--hover-color);
 }
-.header-mail {
+.header-contact {
 color: var(--adress-color)
 }
 /**______SOLUTION______**/
